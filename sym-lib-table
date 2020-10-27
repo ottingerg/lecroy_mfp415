@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MCU_NXP_HC11)(type Legacy)(uri ${KIPRJMOD}/MCU_NXP_HC11.lib)(options "")(descr ""))
+)

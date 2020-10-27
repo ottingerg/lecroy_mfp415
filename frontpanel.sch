@@ -1,0 +1,156 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_NXP_HC11:MC68HC705_44pin U?
+U 1 1 5F95D5D4
+P 4600 5550
+F 0 "U?" H 5744 5571 50  0000 L CNN
+F 1 "MC68HC705_44pin" H 5744 5480 50  0000 L CNN
+F 2 "" H 4900 3600 50  0001 C CNN
+F 3 "" H 4900 3600 50  0001 C CNN
+	1    4600 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x22_Female J?
+U 1 1 5F95E964
+P 1650 2850
+F 0 "J?" H 1542 4035 50  0000 C CNN
+F 1 "Conn_01x22_Female" H 1542 3944 50  0000 C CNN
+F 2 "" H 1650 2850 50  0001 C CNN
+F 3 "~" H 1650 2850 50  0001 C CNN
+	1    1650 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2750 4250 2750
+Wire Wire Line
+	4250 2750 4250 4450
+Wire Wire Line
+	1850 2850 4100 2850
+Wire Wire Line
+	4100 2850 4100 4450
+Wire Wire Line
+	1850 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 4450
+Wire Wire Line
+	1850 3450 4400 3450
+Wire Wire Line
+	4400 3450 4400 4450
+$Comp
+L 74xx_IEEE:74LS594 U?
+U 1 1 5F969872
+P 7300 2250
+F 0 "U?" H 7300 3066 50  0000 C CNN
+F 1 "74LS594" H 7300 2975 50  0000 C CNN
+F 2 "" H 7300 2250 50  0001 C CNN
+F 3 "" H 7300 2250 50  0001 C CNN
+	1    7300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74LS594 U?
+U 1 1 5F96B299
+P 7300 4150
+F 0 "U?" H 7300 4966 50  0000 C CNN
+F 1 "74LS594" H 7300 4875 50  0000 C CNN
+F 2 "" H 7300 4150 50  0001 C CNN
+F 3 "" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3050 8000 3050
+Wire Wire Line
+	8000 3050 8000 3400
+Wire Wire Line
+	8000 3400 6500 3400
+Wire Wire Line
+	6500 3400 6500 4550
+Wire Wire Line
+	6500 4550 6750 4550
+Wire Wire Line
+	1850 2650 6750 2650
+Wire Wire Line
+	4100 2850 5900 2850
+Wire Wire Line
+	5900 2850 5900 2050
+Wire Wire Line
+	5900 2050 6750 2050
+Connection ~ 4100 2850
+Wire Wire Line
+	5900 2850 5900 3950
+Wire Wire Line
+	5900 3950 6750 3950
+Connection ~ 5900 2850
+Wire Wire Line
+	6750 1700 6100 1700
+Wire Wire Line
+	6100 3600 6750 3600
+Wire Wire Line
+	6100 1700 6100 2550
+Wire Wire Line
+	1850 2550 6100 2550
+Connection ~ 6100 2550
+Wire Wire Line
+	6100 2550 6100 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5F976EE1
+P 1950 4150
+F 0 "#PWR?" H 1950 3900 50  0001 C CNN
+F 1 "GND" H 1955 3977 50  0000 C CNN
+F 2 "" H 1950 4150 50  0001 C CNN
+F 3 "" H 1950 4150 50  0001 C CNN
+	1    1950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3850 1950 3850
+Wire Wire Line
+	1950 3950 1850 3950
+Connection ~ 1950 3950
+Wire Wire Line
+	1950 3950 1950 4150
+Wire Wire Line
+	1850 3250 1950 3250
+Wire Wire Line
+	1950 3250 1950 3850
+Connection ~ 1950 3850
+Wire Wire Line
+	1950 3850 1950 3950
+Wire Wire Line
+	1850 2450 1950 2450
+Wire Wire Line
+	1950 2450 1950 3250
+Connection ~ 1950 3250
+Wire Wire Line
+	1850 2050 1950 2050
+Wire Wire Line
+	1950 2050 1950 2450
+Connection ~ 1950 2450
+Wire Wire Line
+	1850 1950 1950 1950
+Wire Wire Line
+	1950 1950 1950 2050
+Connection ~ 1950 2050
+Wire Wire Line
+	1850 1850 1950 1850
+Wire Wire Line
+	1950 1850 1950 1950
+Connection ~ 1950 1950
+$EndSCHEMATC
