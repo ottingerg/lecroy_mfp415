@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L MCU_NXP_HC11:MC68HC705_44pin U96
 U 1 1 5F95D5D4
-P 4600 5550
-F 0 "U96" H 5744 5571 50  0000 L CNN
-F 1 "MC68HC705_44pin" H 5744 5480 50  0000 L CNN
-F 2 "" H 4900 3600 50  0001 C CNN
-F 3 "" H 4900 3600 50  0001 C CNN
-	1    4600 5550
+P 5700 5550
+F 0 "U96" H 6844 5571 50  0000 L CNN
+F 1 "MC68HC705_44pin" H 6844 5480 50  0000 L CNN
+F 2 "" H 6000 3600 50  0001 C CNN
+F 3 "" H 6000 3600 50  0001 C CNN
+	1    5700 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -38,19 +38,17 @@ $EndComp
 Wire Wire Line
 	1850 2750 2250 2750
 Wire Wire Line
-	4250 2750 4250 4450
+	5350 2750 5350 4450
 Wire Wire Line
 	1850 2850 2350 2850
 Wire Wire Line
-	4100 2850 4100 4450
+	5200 2850 5200 4450
 Wire Wire Line
 	1850 3150 2450 3150
 Wire Wire Line
-	3950 3150 3950 4450
-Wire Wire Line
 	1850 3450 2600 3450
 Wire Wire Line
-	4400 3450 4400 4450
+	5500 3450 5500 4450
 $Comp
 L 74xx_IEEE:74LS594 U118
 U 1 1 5F969872
@@ -62,43 +60,15 @@ F 3 "" H 7300 2250 50  0001 C CNN
 	1    7300 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx_IEEE:74LS594 U2
-U 1 1 5F96B299
-P 7300 4150
-F 0 "U2" H 7300 4966 50  0000 C CNN
-F 1 "74LS594" H 7300 4875 50  0000 C CNN
-F 2 "" H 7300 4150 50  0001 C CNN
-F 3 "" H 7300 4150 50  0001 C CNN
-	1    7300 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7850 3050 8000 3050
+	5200 2850 6250 2850
 Wire Wire Line
-	8000 3050 8000 3400
+	6250 2850 6250 2050
 Wire Wire Line
-	8000 3400 6500 3400
-Wire Wire Line
-	6500 3400 6500 4550
-Wire Wire Line
-	6500 4550 6750 4550
-Wire Wire Line
-	4100 2850 5900 2850
-Wire Wire Line
-	5900 2850 5900 2050
-Wire Wire Line
-	5900 2050 6750 2050
-Connection ~ 4100 2850
-Wire Wire Line
-	5900 2850 5900 3950
-Wire Wire Line
-	5900 3950 6750 3950
-Connection ~ 5900 2850
+	6250 2050 6750 2050
+Connection ~ 5200 2850
 Wire Wire Line
 	6750 1700 6100 1700
-Wire Wire Line
-	6100 3600 6750 3600
 $Comp
 L power:GND #PWR?
 U 1 1 5F976EE1
@@ -135,75 +105,38 @@ Connection ~ 1950 1950
 $Comp
 L 74xx:74HC04 U1
 U 1 1 5F99A5DD
-P 7050 5650
-F 0 "U1" H 7050 5967 50  0000 C CNN
-F 1 "74HC04" H 7050 5876 50  0000 C CNN
-F 2 "" H 7050 5650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7050 5650 50  0001 C CNN
-	1    7050 5650
+P 9250 3750
+F 0 "U1" H 9250 4067 50  0000 C CNN
+F 1 "74HC04" H 9250 3976 50  0000 C CNN
+F 2 "" H 9250 3750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9250 3750 50  0001 C CNN
+	1    9250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U1
 U 2 1 5F99B9B9
-P 7650 5650
-F 0 "U1" H 7650 5967 50  0000 C CNN
-F 1 "74HC04" H 7650 5876 50  0000 C CNN
-F 2 "" H 7650 5650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7650 5650 50  0001 C CNN
-	2    7650 5650
+P 9850 3750
+F 0 "U1" H 9850 4067 50  0000 C CNN
+F 1 "74HC04" H 9850 3976 50  0000 C CNN
+F 2 "" H 9850 3750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9850 3750 50  0001 C CNN
+	2    9850 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U1
 U 3 1 5F99C92C
-P 8250 5650
-F 0 "U1" H 8250 5967 50  0000 C CNN
-F 1 "74HC04" H 8250 5876 50  0000 C CNN
-F 2 "" H 8250 5650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8250 5650 50  0001 C CNN
-	3    8250 5650
+P 10450 3750
+F 0 "U1" H 10450 4067 50  0000 C CNN
+F 1 "74HC04" H 10450 3976 50  0000 C CNN
+F 2 "" H 10450 3750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10450 3750 50  0001 C CNN
+	3    10450 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 5650 8550 6450
-Wire Wire Line
-	6300 1950 6300 3850
-Wire Wire Line
-	6300 3850 6750 3850
-Wire Wire Line
-	6300 1950 6750 1950
-Wire Wire Line
-	6650 3700 6650 1800
-Wire Wire Line
-	6650 1800 6750 1800
-Wire Wire Line
-	6750 5650 6650 5650
-Wire Wire Line
-	6650 5650 6650 5150
-Connection ~ 6650 3700
-Wire Wire Line
-	8550 6450 6300 6450
-Wire Wire Line
-	6300 6450 6300 3850
-Connection ~ 6300 3850
-$Comp
-L Interface_Expansion:PCF8574 U119
-U 1 1 5F9C17F7
-P 1450 5500
-F 0 "U119" H 1450 6381 50  0000 C CNN
-F 1 "PCF8574" H 1450 6290 50  0000 C CNN
-F 2 "" H 1450 5500 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 1450 5500 50  0001 C CNN
-	1    1450 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 5200 2250 5200
-Wire Wire Line
-	6650 3700 6750 3700
-Wire Wire Line
-	1850 2650 6750 2650
+	1850 2650 2100 2650
 Wire Wire Line
 	6100 1700 6100 2550
 Wire Wire Line
@@ -219,47 +152,163 @@ Connection ~ 1950 2450
 Wire Wire Line
 	1950 2450 1950 3250
 Wire Wire Line
-	1850 2550 3450 2550
+	1850 2550 4550 2550
 Wire Wire Line
-	3450 2550 3450 4750
+	4550 2550 4550 4750
 Wire Wire Line
-	3450 2550 6100 2550
-Connection ~ 3450 2550
-Connection ~ 6100 2550
+	4550 2550 6100 2550
+Connection ~ 4550 2550
 Wire Wire Line
-	6100 2550 6100 3600
+	1850 3050 4000 3050
 Wire Wire Line
-	1850 3050 3050 3050
+	4550 5800 4000 5800
 Wire Wire Line
-	3450 5800 3050 5800
-Wire Wire Line
-	3050 3050 3050 5800
+	4000 3050 4000 5500
 Wire Wire Line
 	2350 2850 2350 5300
-Wire Wire Line
-	1950 5300 2350 5300
 Connection ~ 2350 2850
 Wire Wire Line
-	2350 2850 4100 2850
+	2350 2850 5200 2850
 Wire Wire Line
 	2250 5200 2250 2750
 Connection ~ 2250 2750
 Wire Wire Line
-	2250 2750 4250 2750
+	2250 2750 5350 2750
 Wire Wire Line
 	2450 3150 2450 5600
-Wire Wire Line
-	2450 5600 1950 5600
 Connection ~ 2450 3150
 Wire Wire Line
-	2450 3150 3950 3150
-Wire Wire Line
 	2600 3450 2600 5700
-Wire Wire Line
-	2600 5700 1950 5700
 Connection ~ 2600 3450
 Wire Wire Line
-	2600 3450 4400 3450
+	2600 3450 5500 3450
+Wire Wire Line
+	1850 2950 2900 2950
+Wire Wire Line
+	2900 2950 2900 5400
+Wire Wire Line
+	1850 3650 3850 3650
+Wire Wire Line
+	3850 3650 3850 6700
+Wire Wire Line
+	3850 6700 4100 6700
+Wire Wire Line
+	1850 3550 2750 3550
+Wire Wire Line
+	2750 6250 3500 6250
+$Comp
+L Device:R R?
+U 1 1 5F9F6ABE
+P 3500 6100
+F 0 "R?" H 3570 6146 50  0000 L CNN
+F 1 "10k" H 3570 6055 50  0000 L CNN
+F 2 "" V 3430 6100 50  0001 C CNN
+F 3 "~" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F9F7551
+P 3500 5950
+F 0 "#PWR?" H 3500 5800 50  0001 C CNN
+F 1 "+3V3" H 3515 6123 50  0000 C CNN
+F 2 "" H 3500 5950 50  0001 C CNN
+F 3 "" H 3500 5950 50  0001 C CNN
+	1    3500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3550 2750 5800
+Text Notes 600  6850 0    50   ~ 0
+PCF8574 has SSOP20 Footprint on the PCB. \nIn this schemtic the Pins are translated to SO16\n
+$Comp
+L 74xx_IEEE:74LS594 U2
+U 1 1 5F96B299
+P 9300 2250
+F 0 "U2" H 9300 3066 50  0000 C CNN
+F 1 "74LS594" H 9300 2975 50  0000 C CNN
+F 2 "" H 9300 2250 50  0001 C CNN
+F 3 "" H 9300 2250 50  0001 C CNN
+	1    9300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1700 6100 800 
+Wire Wire Line
+	6100 800  8750 800 
+Wire Wire Line
+	8750 800  8750 1700
+Connection ~ 6100 1700
+Wire Wire Line
+	6650 1800 6750 1800
+Wire Wire Line
+	6650 950  8650 950 
+Wire Wire Line
+	8650 950  8650 1250
+Wire Wire Line
+	8650 1800 8750 1800
+Wire Wire Line
+	6650 950  6650 1800
+Wire Wire Line
+	6450 1950 6450 1100
+Wire Wire Line
+	6450 1100 8450 1100
+Wire Wire Line
+	8450 1100 8450 1950
+Wire Wire Line
+	8450 1950 8750 1950
+Wire Wire Line
+	6450 1950 6750 1950
+Wire Wire Line
+	10700 3050 10700 1250
+Wire Wire Line
+	10700 1250 8650 1250
+Connection ~ 8650 1250
+Wire Wire Line
+	8650 1250 8650 1800
+Wire Wire Line
+	10750 3750 10900 3750
+Wire Wire Line
+	10900 3750 10900 4100
+Wire Wire Line
+	10900 4100 8450 4100
+Wire Wire Line
+	8450 4100 8450 1950
+Connection ~ 8450 1950
+Wire Wire Line
+	9900 3050 9900 3300
+Wire Wire Line
+	9900 3300 8700 3300
+Wire Wire Line
+	8700 3300 8700 3750
+Wire Wire Line
+	8700 3750 8950 3750
+Wire Wire Line
+	9850 3050 9900 3050
+Connection ~ 9900 3050
+Wire Wire Line
+	9900 3050 10700 3050
+Wire Wire Line
+	2100 5100 2100 2650
+Connection ~ 2100 2650
+Wire Wire Line
+	2100 2650 6750 2650
+Connection ~ 2900 5400
+Wire Wire Line
+	2900 5400 2900 6850
+Connection ~ 4000 5500
+Wire Wire Line
+	4000 5500 4000 5800
+Connection ~ 2750 5800
+Wire Wire Line
+	2750 5800 2750 6250
+Connection ~ 700  5500
+Wire Wire Line
+	700  5400 700  5500
+Connection ~ 700  5600
+Wire Wire Line
+	700  5500 700  5600
 $Comp
 L power:GND #PWR?
 U 1 1 5F9E3449
@@ -272,75 +321,184 @@ F 3 "" H 700 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  5400 700  5400
-Wire Wire Line
-	700  5400 700  5500
-Wire Wire Line
-	950  5500 700  5500
-Connection ~ 700  5500
-Wire Wire Line
-	700  5500 700  5600
-Wire Wire Line
-	950  5600 700  5600
-Connection ~ 700  5600
-Wire Wire Line
 	700  5600 700  6050
 Wire Wire Line
-	1850 2950 2900 2950
+	1950 5500 4000 5500
 Wire Wire Line
-	2900 2950 2900 7100
+	1950 5400 2900 5400
 Wire Wire Line
-	2900 7100 4000 7100
+	1950 5300 2350 5300
 Wire Wire Line
-	4000 7100 4000 6700
+	1950 5200 2250 5200
 Wire Wire Line
-	1850 3650 3000 3650
+	1950 5100 2100 5100
 Wire Wire Line
-	3000 3650 3000 6950
+	950  5600 700  5600
 Wire Wire Line
-	3000 6950 3850 6950
+	950  5500 700  5500
 Wire Wire Line
-	3850 6950 3850 6700
+	1950 5800 2750 5800
 Wire Wire Line
-	1850 3550 2750 3550
+	2600 5700 1950 5700
 Wire Wire Line
-	2750 6250 3450 6250
+	2450 5600 1950 5600
+Wire Wire Line
+	950  5400 700  5400
+$Comp
+L Interface_Expansion:PCF8574 U119
+U 1 1 5F9C17F7
+P 1450 5500
+F 0 "U119" H 1450 6381 50  0000 C CNN
+F 1 "PCF8574" H 1450 6290 50  0000 C CNN
+F 2 "" H 1450 5500 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 1450 5500 50  0001 C CNN
+	1    1450 5500
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:R R?
-U 1 1 5F9F6ABE
-P 2450 6450
-F 0 "R?" H 2520 6496 50  0000 L CNN
-F 1 "R" H 2520 6405 50  0000 L CNN
-F 2 "" V 2380 6450 50  0001 C CNN
-F 3 "~" H 2450 6450 50  0001 C CNN
-	1    2450 6450
+U 1 1 5FAD03E7
+P 4100 6550
+F 0 "R?" H 4170 6596 50  0000 L CNN
+F 1 "10k" H 4170 6505 50  0000 L CNN
+F 2 "" V 4030 6550 50  0001 C CNN
+F 3 "~" H 4100 6550 50  0001 C CNN
+	1    4100 6550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 6700
+Wire Wire Line
+	4100 6700 4950 6700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FAD0D6B
+P 4100 6400
+F 0 "#PWR?" H 4100 6250 50  0001 C CNN
+F 1 "+3V3" H 4115 6573 50  0000 C CNN
+F 2 "" H 4100 6400 50  0001 C CNN
+F 3 "" H 4100 6400 50  0001 C CNN
+	1    4100 6400
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:R R?
+U 1 1 5FAD133D
+P 5500 3300
+F 0 "R?" H 5570 3346 50  0000 L CNN
+F 1 "10k" H 5570 3255 50  0000 L CNN
+F 2 "" V 5430 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3450
+$Comp
 L power:+3V3 #PWR?
-U 1 1 5F9F7551
-P 2450 6300
-F 0 "#PWR?" H 2450 6150 50  0001 C CNN
-F 1 "+3V3" H 2465 6473 50  0000 C CNN
-F 2 "" H 2450 6300 50  0001 C CNN
-F 3 "" H 2450 6300 50  0001 C CNN
-	1    2450 6300
+U 1 1 5FAD1B27
+P 5500 3150
+F 0 "#PWR?" H 5500 3000 50  0001 C CNN
+F 1 "+3V3" H 5515 3323 50  0000 C CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0001 C CNN
+	1    5500 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 6600 2750 6600
+	2900 6850 5100 6850
 Wire Wire Line
-	2750 3550 2750 6250
-Connection ~ 2750 6250
+	5050 4450 5050 3150
 Wire Wire Line
-	2750 6250 2750 6600
+	2450 3150 5050 3150
 Wire Wire Line
-	7850 4950 7850 5150
+	3500 6200 3500 6250
+Connection ~ 3500 6250
 Wire Wire Line
-	7850 5150 6650 5150
-Connection ~ 6650 5150
+	3500 6250 4550 6250
 Wire Wire Line
-	6650 5150 6650 3700
-Text Notes 600  6850 0    50   ~ 0
-PCF8574 has SSOP20 Footprint on the PCB. \nIn this schemtic the Pins are translated to SO16\n
+	5100 6850 5100 6700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FB2603F
+P 4400 5350
+F 0 "#PWR?" H 4400 5200 50  0001 C CNN
+F 1 "+3V3" H 4415 5523 50  0000 C CNN
+F 2 "" H 4400 5350 50  0001 C CNN
+F 3 "" H 4400 5350 50  0001 C CNN
+	1    4400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6100 4400 6100
+Wire Wire Line
+	4550 5950 4400 5950
+Wire Wire Line
+	4400 5950 4400 6100
+Wire Wire Line
+	4400 5950 4400 5350
+Wire Wire Line
+	4400 5350 4550 5350
+Connection ~ 4400 5950
+Connection ~ 4400 5350
+Text Notes 600  6600 0    50   ~ 0
+U119 (PCF8574) provides an alternative but deprecated \nI2C-communications interface between the PCI-Board\nand the Frontpanel\n
+Text Notes 2900 7300 0    50   ~ 0
+PA7 (Pin 18 on J2) is a possible candidate for signaling\nEncoder/PushButton changes to the PCI-Board
+Text Notes 2900 7100 0    50   ~ 0
+Observation: Pins of the MC68HC705 that are companioned\nby  a 10k-PullUp might be used as outputs. This assumption\nis made because MISO also has a pullup. 
+Text Notes 8900 4550 0    50   ~ 0
+17 clock cycles are used to set the LEDs.\nthe 17th clock cycle commits the shift register\nstate to the output stage. The 74HC04 Delay-Line\nresets the shift register afterwards
+Wire Wire Line
+	8750 2650 8750 3050
+Wire Wire Line
+	7850 3050 8750 3050
+Wire Bus Line
+	9850 2950 9850 2250
+Wire Bus Line
+	9850 2250 10150 2250
+Wire Bus Line
+	7850 2950 7850 2250
+Wire Bus Line
+	7850 2250 8150 2250
+Text GLabel 10150 2250 2    50   Input ~ 0
+LEDS
+Text GLabel 8150 2250 2    50   Input ~ 0
+LEDS
+Wire Wire Line
+	6250 2050 6250 1300
+Wire Wire Line
+	6250 1300 8250 1300
+Wire Wire Line
+	8250 1300 8250 2050
+Wire Wire Line
+	8250 2050 8750 2050
+Connection ~ 6250 2050
+Wire Bus Line
+	6800 6700 6800 5800
+Wire Bus Line
+	6800 5800 7700 5800
+Wire Bus Line
+	6000 6700 6800 6700
+Wire Bus Line
+	6800 5350 6800 4900
+Wire Bus Line
+	6800 4900 6950 4900
+Wire Bus Line
+	6950 4900 6950 4450
+Wire Bus Line
+	6950 4450 5950 4450
+Wire Bus Line
+	6950 4450 7750 4450
+Connection ~ 6950 4450
+Text GLabel 7750 4450 2    50   Input ~ 0
+?Matrix_COMMON
+Text GLabel 7700 5800 2    50   Input ~ 0
+?Matrix_PushButton
+Wire Bus Line
+	5250 6700 5850 6700
+Wire Bus Line
+	5850 6700 5850 7300
+Wire Bus Line
+	5850 7300 6050 7300
+Text GLabel 6050 7300 2    50   Input ~ 0
+?Matrix_Encoder
 $EndSCHEMATC
