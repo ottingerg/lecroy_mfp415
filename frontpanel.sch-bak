@@ -472,4 +472,47 @@ Wire Wire Line
 Wire Wire Line
 	8250 2050 8750 2050
 Connection ~ 6250 2050
+Wire Bus Line
+	6800 6700 6800 5800
+Wire Bus Line
+	6800 5800 7700 5800
+Wire Bus Line
+	6000 6700 6800 6700
+Wire Bus Line
+	6800 5350 6800 4900
+Wire Bus Line
+	6800 4900 6950 4900
+Wire Bus Line
+	6950 4900 6950 4450
+Wire Bus Line
+	6950 4450 5950 4450
+Wire Bus Line
+	6950 4450 7750 4450
+Connection ~ 6950 4450
+Text GLabel 7750 4450 2    50   Input ~ 0
+?Matrix_COMMON
+Text GLabel 7700 5800 2    50   Input ~ 0
+?Matrix_PushButton
+Wire Bus Line
+	5250 6700 5850 6700
+Wire Bus Line
+	5850 6700 5850 7300
+Wire Bus Line
+	5850 7300 6050 7300
+Text GLabel 6050 7300 2    50   Input ~ 0
+?Matrix_Encoder
+Text Notes 1450 3450 0    50   ~ 0
+MISO
+Text Notes 1450 2750 0    50   ~ 0
+MOSI
+Text Notes 1450 2850 0    50   ~ 0
+SCK
+Text Notes 1450 3150 0    50   ~ 0
+CS/
+Text Notes 1350 3050 0    50   ~ 0
+RESET/
+Text Notes 1450 3550 0    50   ~ 0
+PA7
+Text Notes 1450 2550 0    50   ~ 0
+PD7
 $EndSCHEMATC

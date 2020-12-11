@@ -501,4 +501,20 @@ Wire Bus Line
 	5850 7300 6050 7300
 Text GLabel 6050 7300 2    50   Input ~ 0
 ?Matrix_Encoder
+Text Notes 1450 3450 0    50   ~ 0
+MISO
+Text Notes 1450 2750 0    50   ~ 0
+MOSI
+Text Notes 1450 2850 0    50   ~ 0
+SCK
+Text Notes 1450 3150 0    50   ~ 0
+CS/
+Text Notes 1350 3050 0    50   ~ 0
+RESET/
+Text Notes 1450 3550 0    50   ~ 0
+PA7
+Text Notes 1450 2550 0    50   ~ 0
+PD7
+Text Notes 1450 3650 0    50   ~ 0
+PA6
 $EndSCHEMATC
