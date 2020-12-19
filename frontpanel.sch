@@ -536,4 +536,6 @@ Wire Wire Line
 	4450 4900 4200 4900
 Wire Wire Line
 	4550 5200 4200 5200
+Text Notes 7200 4700 0    50   ~ 0
+According to Diodes used in the Encoder Matrix this should be inputs.
 $EndSCHEMATC

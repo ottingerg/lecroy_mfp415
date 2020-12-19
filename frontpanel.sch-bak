@@ -517,4 +517,23 @@ Text Notes 1450 2550 0    50   ~ 0
 PD7
 Text Notes 1450 3650 0    50   ~ 0
 PA6
+$Comp
+L Device:Crystal Y?
+U 1 1 5FD369AC
+P 4200 5050
+F 0 "Y?" V 4154 5181 50  0000 L CNN
+F 1 "3.687Mhz" V 4245 5181 50  0000 L CNN
+F 2 "" H 4200 5050 50  0001 C CNN
+F 3 "~" H 4200 5050 50  0001 C CNN
+	1    4200 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 5050 4450 5050
+Wire Wire Line
+	4450 5050 4450 4900
+Wire Wire Line
+	4450 4900 4200 4900
+Wire Wire Line
+	4550 5200 4200 5200
 $EndSCHEMATC
