@@ -538,4 +538,28 @@ Wire Wire Line
 	4550 5200 4200 5200
 Text Notes 7200 4700 0    50   ~ 0
 According to Diodes used in the Encoder Matrix this should be inputs.
+Text Notes 1450 2950 0    50   ~ 0
+PA5\n
+Text Notes 1250 2650 0    50   ~ 0
+LED_DATA
+Text Notes 550  2650 0    50   ~ 0
+Pin 32 - GP30
+Text Notes 550  2750 0    50   ~ 0
+Pin 33 - GP31
+Text Notes 550  2850 0    50   ~ 0
+Pin 34 - GP32
+Text Notes 550  2950 0    50   ~ 0
+Pin 35 - GP33
+Text Notes 550  3050 0    50   ~ 0
+Pin 36 - GP34
+Text Notes 550  3150 0    50   ~ 0
+Pin 37 - GP35
+Text Notes 550  3450 0    50   ~ 0
+Pin 47 - GP 47
+Text Notes 550  3550 0    50   ~ 0
+Pin 41 - GP 41
+Text Notes 550  3650 0    50   ~ 0
+Pin 40 - GP 40
+Text Notes 550  3600 1    50   ~ 0
+LPC47N227 on PCI-Card
 $EndSCHEMATC

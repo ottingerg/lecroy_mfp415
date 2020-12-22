@@ -536,4 +536,28 @@ Wire Wire Line
 	4450 4900 4200 4900
 Wire Wire Line
 	4550 5200 4200 5200
+Text Notes 7200 4700 0    50   ~ 0
+According to Diodes used in the Encoder Matrix this should be inputs.
+Text Notes 1450 2950 0    50   ~ 0
+PA5\n
+Text Notes 1250 2650 0    50   ~ 0
+LED_DATA
+Text Notes 750  2650 0    50   ~ 0
+32
+Text Notes 750  2750 0    50   ~ 0
+33
+Text Notes 750  2850 0    50   ~ 0
+34
+Text Notes 750  2950 0    50   ~ 0
+35
+Text Notes 750  3050 0    50   ~ 0
+36
+Text Notes 750  3150 0    50   ~ 0
+37
+Text Notes 750  3450 0    50   ~ 0
+47
+Text Notes 750  3550 0    50   ~ 0
+41
+Text Notes 750  3650 0    50   ~ 0
+40
 $EndSCHEMATC
