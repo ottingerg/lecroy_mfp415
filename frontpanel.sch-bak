@@ -542,22 +542,24 @@ Text Notes 1450 2950 0    50   ~ 0
 PA5\n
 Text Notes 1250 2650 0    50   ~ 0
 LED_DATA
-Text Notes 750  2650 0    50   ~ 0
-32
-Text Notes 750  2750 0    50   ~ 0
-33
-Text Notes 750  2850 0    50   ~ 0
-34
-Text Notes 750  2950 0    50   ~ 0
-35
-Text Notes 750  3050 0    50   ~ 0
-36
-Text Notes 750  3150 0    50   ~ 0
-37
-Text Notes 750  3450 0    50   ~ 0
-47
-Text Notes 750  3550 0    50   ~ 0
-41
-Text Notes 750  3650 0    50   ~ 0
-40
+Text Notes 550  2650 0    50   ~ 0
+Pin 32 - GP30
+Text Notes 550  2750 0    50   ~ 0
+Pin 33 - GP31
+Text Notes 550  2850 0    50   ~ 0
+Pin 34 - GP32
+Text Notes 550  2950 0    50   ~ 0
+Pin 35 - GP33
+Text Notes 550  3050 0    50   ~ 0
+Pin 36 - GP34
+Text Notes 550  3150 0    50   ~ 0
+Pin 37 - GP35
+Text Notes 550  3450 0    50   ~ 0
+Pin 47 - GP 47
+Text Notes 550  3550 0    50   ~ 0
+Pin 41 - GP 41
+Text Notes 550  3650 0    50   ~ 0
+Pin 40 - GP 40
+Text Notes 550  3600 1    50   ~ 0
+LPC47N227 on PCI-Card
 $EndSCHEMATC

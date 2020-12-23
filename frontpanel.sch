@@ -562,4 +562,6 @@ Text Notes 550  3650 0    50   ~ 0
 Pin 40 - GP 40
 Text Notes 550  3600 1    50   ~ 0
 LPC47N227 on PCI-Card
+Text Notes 550  2550 0    50   ~ 0
+Pin 39 - GP37
 $EndSCHEMATC
