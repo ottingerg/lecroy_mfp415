@@ -564,4 +564,6 @@ Text Notes 550  3600 1    50   ~ 0
 LPC47N227 on PCI-Card
 Text Notes 550  2550 0    50   ~ 0
 Pin 39 - GP37
+Text Notes 700  7600 0    50   ~ 0
+PA6 seems to be some kind of Disable Signal - it is routed from the Display/Fancontroller board to the Connector J4 (Pin4).\nBy disconnecting Pin4 from J4 my frontpanel started working again.\nOne observation is that the LEDs are now still active after exiting the Scope Application\n
 $EndSCHEMATC
